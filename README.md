@@ -99,6 +99,13 @@ Para configurar la conexión a PostgreSQL dentro de pgAdmin:
    * **Username**: dorado
    * **Password**: doradoo
 
+## Esto ejecutará los tests utilizando SQLite, garantizando que la base de datos principal no sea afectada.
+
+```
+npm run test
+
+```
+
 ## Apagar la aplicación
 ------------------------
 
