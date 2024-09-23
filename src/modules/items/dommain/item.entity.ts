@@ -3,8 +3,7 @@ import { Entity, PrimaryGeneratedColumn, Column } from 'typeorm';
 @Entity({ name: 'items' })
 export class Item {
     @PrimaryGeneratedColumn()
-    id!: number; //podriamos agregar un valor por defecto pero sabemos que esta propiedad como las de abajo van a ser inicializadas por TYPEORM
-
+    id!: number;
     @Column()
     name!: string;
 
